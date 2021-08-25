@@ -1,0 +1,62 @@
+@import "bourbon";
+ @import url(https://fonts.googleapis.com/css?family=Lato:400,700,300);
+ html{
+      background-image:linear-gradient(to top right, #04aa6d 0%, #4caf50 100%);
+ }
+
+#content{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+background-image:linear-gradient(to top right, #04aa6d 0%, #4caf50 100%);
+}
+.container{
+  align-items:center;
+
+  justify-content:center;
+}
+
+
+.tutorial-table {
+	margin-top: 40px;
+	font-size: 0.8em;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.tutorial-table th {
+	background: #f0f0f0;
+	border-bottom: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+.tutorial-table td {
+	background: #FFF;
+	border-bottom: 1px solid #dddddd;
+	padding: 8px;
+	text-align: left;
+}
+
+#response {
+	padding: 10px;
+	margin-top: 10px;
+	border-radius: 2px;
+	display: none;
+}
+
+.success {
+	background: #c7efd9;
+	border: #bbe2cd 1px solid;
+}
+
+.error {
+	background: #fbcfcf;
+	border: #f3c6c7 1px solid;
+}
+
+div#response.display-block {
+	display: block;
+}
